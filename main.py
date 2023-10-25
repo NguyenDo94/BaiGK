@@ -117,7 +117,6 @@ def newTask():
         return render_template('/newTask.html', form=form, user=user)
     return redirect('/')
 
-@app.route('/deleteTask', methods=['GET','POST'])
 
 @app.route('/deleleTask', methods=['GET','POST'])
 def deleteTask():
